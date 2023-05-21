@@ -16,6 +16,8 @@ export class ProfileComponent implements OnInit {
     // setTimeout(() => {
     //     this.spinner.hide();
     // }, 2000);
+    let loader: any = document.getElementById('loader');
+    loader.style.display = 'none'; 
   }
 
 }
