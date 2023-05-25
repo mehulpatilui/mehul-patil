@@ -13,7 +13,6 @@ workexp: any
   constructor(private profileService:ProfileService) { }
 
     ngOnInit() {
-
       this.workexp =  this.profileService.exprience()
     }
 }

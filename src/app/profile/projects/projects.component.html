@@ -10,6 +10,7 @@
                     <div class="blog-entry">
                         <div class="card">
                             <img class="card-img-top" src={{project.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
+                            <div *ngIf="project.title == 'International travel booking webapp'" class="ytd-in"></div>
                             <div class="card-body">
                                 <h4 class="card-title">{{project.title}}</h4>
                                 <p>{{project.desc}}</p>

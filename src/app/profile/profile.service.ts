@@ -182,10 +182,10 @@ export class ProfileService {
 
   ]
 
-  about2 = [{ p: 'Software Developer with 1.4+ years of experience.'},
-  { p: 'Worked with Software Development Life Cycle(SDLC) and WebRTC.'},
-  { p: 'Expertise in Angular 1.6+ All versions, Javascript.' },
-  { p: 'Have good understanding of WebRTc protocol,FCM Cloud messaging and multilingual.'}]
+
+  about2 = [ { p: 'Worked with Software Development Life Cycle(SDLC) and WebRTC.'},
+  { p: 'Expertise in Angular 8+ All versions, Javascript, ES6.' },
+  { p: 'Have good understanding of WebRTc protocol, FCM Cloud messaging and multilingual.'}]
 
   about = "I'm a native of Indore, multi-faceted individual with a Master's degree in Computer Applications and currently working as a professional Software engineer. With a strong foundation in computer science, I've a keen interest in traveling and exploring new cultures. my passion for adventure and the great outdoors is evident in i love for travel, as i seeks out new experiences and delves into the unfamiliar. With a thirst for knowledge and an insatiable curiosity, I'm always eager to learn and grow, whether it be through my professional pursuits or personal experiences."
   resumeurl = "https://docs.google.com/document/d/15RWZxsIv-l-0YOq3iMPjtkHVDMVYYI6l/edit?rtpof=true"
@@ -275,12 +275,11 @@ Completed my Secondary school with 84%.`
       location: 'Ahmedabad',
       timeline: 'Jan 2022 to Present',
       role: 'Angular Developer',
-      work: `Technologies : Angular , JavaScript , jQuery  .
+      work: `Technologies : Angular 8+ , JavaScript, RXJX, Typescript. .
 
-  Project 1 : Working on WebRTC WebApplication. Manage to call flow and port number Identifying areas for modification in the current project to implement. Identifying areas for modification in the current project to implement.
-  . Identifying areas for modification in the current project to implement. .
+  Project 1 : Working on WebRTC based WebApplication. . Manage call flow and implement number porting service. . Implement messages service using PN and 3rd party SDK(Telnyx). . Added video conferencing service that enables you to join and host virtual meetings via audio, video, chat, and screen sharing.  .
 
-  Project 2 : Manage payment integration using stripe payment gateway. Chatbot integration(Trengo chat). implement multilingual (English and French).  .
+  Project 2 : Manage payment integration using stripe payment gateway. . Chatbot integration(Trengo chat). . Implement multilingual (English and French). .
 
   Working closely with developers, UI designers, business developers, and quality analytics.
   `
