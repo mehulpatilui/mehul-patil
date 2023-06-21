@@ -16,12 +16,17 @@ import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
 import { ExtraCiricularComponent } from './extra-ciricular/extra-ciricular.component';
-
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    MatDialogModule,
+    MatCardModule,
+    MatButtonModule
   ],
   declarations: [
     ProfileComponent,

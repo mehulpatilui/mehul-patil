@@ -11,5 +11,11 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   }
+  closeNav(){
+    if(window.innerWidth < 979){
+      let btn: any = document.getElementById('closbtn');
+      btn.click();
+    }
+  }
 
 }

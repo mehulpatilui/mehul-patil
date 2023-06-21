@@ -1,0 +1,35 @@
+.example-card {
+    position: fixed;
+    margin: 20px;
+    bottom: 20px;
+    max-width: 400px;
+    background: #fff;
+
+    .card_header {
+        .mat-card-header-text{
+            margin: 0px !important;
+        }
+    }
+
+    .cookie_header {
+        color: #00334d;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .cookies_content {
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    button {
+        background: #00334d;
+        color: #fff;
+        font-weight: 500;
+    }
+}
+
+::ng-deep .mat-card-header-text{
+    margin: 0px !important;
+}

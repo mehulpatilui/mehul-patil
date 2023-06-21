@@ -20,17 +20,16 @@ constructor(private profileService:ProfileService) { }
   }
 
   totalExp() {
-    const startDate = new Date(2022, 1, 1); // month start at 0
+    const startDate = new Date(2022,2,1);
     const currentDate = new Date();
     const months = (currentDate.getFullYear() - startDate.getFullYear()) * 12 + (currentDate.getMonth() - startDate.getMonth());
     var dur1 = Math.floor(months / 12);
-    var dur2 = (months / 12) - dur1;
+    var dur2 = (months % 12);
     var dur3 = Math.floor(dur2 * 12);
     if(dur3 != 0){
-      this.experiance = dur1+'.'+dur3
+      this.experiance = dur1+'.'+dur3;
     } else {
-      this.experiance = dur1
+      this.experiance = dur1;
     }
   }
-
 }

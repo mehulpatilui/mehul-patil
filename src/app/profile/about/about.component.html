@@ -7,7 +7,7 @@
               <div class="h4 mt-0 title">About</div>
               <div>
                 <ul>
-                  <li>{{'Software Developer with '+this.experiance+' years of experience.'}}</li>
+                  <li>Software Developer with {{this.experiance | number:'1.0-1'}} years of experience.</li>
                   <li *ngFor="let m of about2">{{m.p}}</li>
                 </ul>
               </div>
