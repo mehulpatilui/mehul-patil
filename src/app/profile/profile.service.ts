@@ -188,7 +188,6 @@ export class ProfileService {
   { p: 'Have good understanding of WebRTc protocol, FCM Cloud messaging and multilingual.'}]
 
   about = "I'm a native of Indore, multi-faceted individual with a Master's degree in Computer Applications and currently working as a professional Software engineer. With a strong foundation in computer science, I've a keen interest in traveling and exploring new cultures. my passion for adventure and the great outdoors is evident in i love for travel, as i seeks out new experiences and delves into the unfamiliar. With a thirst for knowledge and an insatiable curiosity, I'm always eager to learn and grow, whether it be through my professional pursuits or personal experiences."
-  resumeurl = "https://docs.google.com/document/d/15RWZxsIv-l-0YOq3iMPjtkHVDMVYYI6l/edit?rtpof=true"
 
   skillsData: any = [
     {
