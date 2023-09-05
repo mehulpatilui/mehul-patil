@@ -27,7 +27,7 @@ export class IntroComponent implements OnInit {
       panelClass: 'open_cv_dialog',
       autoFocus: false,
       data: {
-        url: '/assets/files/Mehul_Patil.pdf'
+        url: './assets/files/Mehul_Patil.pdf'
       },
     });
 
