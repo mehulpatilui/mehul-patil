@@ -8,6 +8,9 @@ import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './dialog/dialog.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 const routes: Routes = [
   {
@@ -23,13 +26,16 @@ const routes: Routes = [
     DialogComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
+    ProfileModule,
+    HttpClientModule,
+    PdfViewerModule,
+    MatButtonModule,
+    MatIconModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule.forRoot(routes, {
     initialNavigation: 'enabled'
-}),
-    ProfileModule,
-    HttpClientModule
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

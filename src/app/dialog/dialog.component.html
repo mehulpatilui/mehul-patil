@@ -1,1 +1,4 @@
-<p>dialog works!</p>
+<button id="close_btn" mat-icon-button class="close_icon" (click)="close()">
+    <mat-icon>close</mat-icon>
+</button>
+<pdf-viewer [src]="pdfUrl" [render-text]="true"></pdf-viewer>
