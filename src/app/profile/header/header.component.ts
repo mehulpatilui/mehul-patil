@@ -18,4 +18,8 @@ export class HeaderComponent implements OnInit {
     }
   }
 
+  scrolltoTop(){
+    window.scrollTo(0, 0);
+  }
+
 }

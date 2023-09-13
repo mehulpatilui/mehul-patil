@@ -1,3 +1,6 @@
 .navbar{
     z-index: 6 !important;
+    .navbar-brand{
+        cursor: pointer;
+    }
 }
