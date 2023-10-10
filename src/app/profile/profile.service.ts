@@ -33,7 +33,7 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
       mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
       imgUrl: 'assets/images/Shope.png',
-      tech: 'Angular 9, Node, MongoDB, Express'
+      tech: 'Angular 9, Node JS, MongoDB, Express'
     },
 
 
@@ -45,18 +45,18 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/Blog-using-mean',
       mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
       imgUrl: 'assets/images/Business_idea.png',
-      tech: 'React JS, Node, MongoDB, Express'
+      tech: 'Angular 9, Node JS, MongoDB, Express'
     },
 
     {
       id: 4,
       title: 'Business finance analise platform.',
       desc: 'Comparison Slides - creative design business presentation templates in the Keynote. Ready template, easy to use.',
-      livedemo: 'https://chatapp-using-node.herokuapp.com/',
+      livedemo: 'https://chatapp-using-Node.herokuapp.com/',
       githurl: 'https://github.com/mehulk05/Chat-app-using-Nodejs',
-      mediumlink: 'https://medium.com/weekly-webtips/building-a-multiroom-chat-application-in-node-js-8a8adca5acf2',
+      mediumlink: 'https://medium.com/weekly-webtips/building-a-multiroom-chat-application-in-Node JS-js-8a8adca5acf2',
       imgUrl: 'assets/images/Admition_application.png',
-      tech: 'Electron JS, sNode JS, Socket IO'
+      tech: 'Angular 10, Node JS, Socket IO'
     },
 
 
@@ -68,7 +68,7 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/Medium-Blog-On-React-App',
       mediumlink: 'https://javascript.plainenglish.io/how-to-add-medium-blogs-on-your-react-app-a3898a729aad',
       imgUrl: 'assets/images/find_home.png',
-      tech: 'React JS, node JS, SQLS'
+      tech: 'Angular 10, Node JS, SQLS'
     },
 
 
@@ -81,9 +81,8 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/NewsApp-using-React',
       mediumlink: 'https://codeburst.io/news-app-using-reactjs-f9752d7ab6ce',
       imgUrl: 'assets/images/travel_mobile.png',
-      tech: 'Angular 11, XMl to JSON'
-    },
-
+      tech: 'Angular 11, XML to JSON'
+    }
 
 
     // {
