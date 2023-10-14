@@ -24,7 +24,6 @@ export class ProfileService {
       imgUrl: 'assets/images/Travelling.png',
       tech: 'Angular 10 , Google SpreadsheetApi'
     },
-
     {
       id: 2,
       title: 'Online drink selling site',
@@ -33,10 +32,8 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
       mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
       imgUrl: 'assets/images/Shope.png',
-      tech: 'Angular 9, Node JS, MongoDB, Express'
+      tech: 'Angular 9, Node JS, MongoDB, Express JS'
     },
-
-
     {
       id: 3,
       title: 'Online business grow webapp',
@@ -45,9 +42,8 @@ export class ProfileService {
       githurl: 'https://github.com/mehulk05/Blog-using-mean',
       mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
       imgUrl: 'assets/images/Business_idea.png',
-      tech: 'Angular 9, Node JS, MongoDB, Express'
+      tech: 'Angular 9, Node JS, MongoDB, Express JS'
     },
-
     {
       id: 4,
       title: 'Business finance analise platform.',
@@ -58,8 +54,6 @@ export class ProfileService {
       imgUrl: 'assets/images/Admition_application.png',
       tech: 'Angular 10, Node JS, Socket IO'
     },
-
-
     {
       id: 5,
       title: 'Online platform to find your home',
@@ -70,9 +64,6 @@ export class ProfileService {
       imgUrl: 'assets/images/find_home.png',
       tech: 'Angular 10, Node JS, SQLS'
     },
-
-
-
     {
       id: 6,
       title: 'International travel booking webapp',
@@ -83,8 +74,6 @@ export class ProfileService {
       imgUrl: 'assets/images/travel_mobile.png',
       tech: 'Angular 11, XML to JSON'
     }
-
-
     // {
     //   id: 7,
     //   title: 'Medium-Like Blog App Using Angular 9 and Firebase',
@@ -95,9 +84,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z21.png',
     //   tech: 'HTML, Bootstrap, CSS, Angular-9, Firebase'
     // },
-
-
-
     // {
     //   id: 8,
     //   title: 'COVID 19 Tracker (Statistics) app Using Angularr',
@@ -108,8 +94,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z2.png',
     //   tech: 'Angular 10 ,Bootstrap,Javascript'
     // },
-
-
     // {
     //   id: 9,
     //   title: 'Weather App with React',
@@ -120,8 +104,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z9.png',
     //   tech: 'React, Open MAp Api'
     // },
-
-
     // {
     //   id: 10,
     //   title: 'Spring Boot + Angular 8 CRUD Example',
@@ -132,8 +114,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z28.png',
     //   tech: 'Angular8, Java ,Hibernate'
     // },
-
-
     // {
     //   id: 11,
     //   title: 'Personal Portfolio Using Angular',
@@ -144,8 +124,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z11.png',
     //   tech: 'Angular ,Bootstrap'
     // },
-
-
     // {
     //   id: 12,
     //   title: 'Personal Portfolio Using Django',
@@ -156,7 +134,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z12.png',
     //   tech: 'Django'
     // },
-
     // {
     //   id: 13,
     //   title: 'Movie Success Prediction',
@@ -167,7 +144,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z13.png',
     //   tech: 'Python, Machine Learning, Django Framework.'
     // },
-
     // {
     //   id: 14,
     //   title: 'Matrimonial Website',
@@ -178,7 +154,6 @@ export class ProfileService {
     //   imgUrl: 'assets/images/z14.png',
     //   tech: 'HTML, CSS, Bootstrap, Jquery'
     // },
-
   ]
 
 
@@ -220,7 +195,6 @@ export class ProfileService {
       'progress': '90%'
     },
   ];
-
 
   educationData: any = [
     {
