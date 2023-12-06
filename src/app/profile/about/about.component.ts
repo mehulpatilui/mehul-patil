@@ -10,6 +10,10 @@ export class AboutComponent implements OnInit {
 about1: any
 about2: any
 experiance!: any;
+oldDate = new Date('2022-01-01');
+currentDate = new Date();
+totalYears: any;
+totalMoth: any;
 
 constructor(private profileService:ProfileService) { }
 
@@ -20,16 +24,10 @@ constructor(private profileService:ProfileService) { }
   }
 
   totalExp() {
-    const startDate = new Date(2022,2,1);
-    const currentDate = new Date();
-    const months = (currentDate.getFullYear() - startDate.getFullYear()) * 12 + (currentDate.getMonth() - startDate.getMonth());
-    var dur1 = Math.floor(months / 12);
-    var dur2 = (months % 12);
-    var dur3 = Math.floor(dur2 * 12);
-    if(dur3 != 0){
-      this.experiance = dur1+'.'+dur3;
-    } else {
-      this.experiance = dur1;
-    }
+    const yearDiff = this.currentDate.getFullYear() - this.oldDate.getFullYear();
+    const monthDiff = this.currentDate.getMonth() - this.oldDate.getMonth();
+    let Months = yearDiff * 12 + monthDiff;
+    this.totalYears = Math.floor(Months / 12);
+    this.totalMoth = Months % 12;
   }
 }
