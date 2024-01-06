@@ -24,7 +24,6 @@ export class ProfileComponent implements OnInit {
          this.isOpencard = false;
       }
     }
-
   }
 
   acceptCookies(){

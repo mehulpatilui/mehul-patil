@@ -249,9 +249,9 @@ Completed my Secondary school with 84%.`
       role: 'Angular Developer',
       work: `Technologies : Angular 8+ , JavaScript, RXJX, Typescript. .
 
-  Project 1 : Working on WebRTC based WebApplication. . Manage call flow and implement number porting service. . Implement messages service using PN and 3rd party SDK(Telnyx). . Added video conferencing service that enables you to join and host virtual meetings via audio, video, chat, and screen sharing.  .
+  Project 1 : Working on WebRTC based WebApplication. . Manage call flow and implement number porting service. . Implement messages service using PN and 3rd party SDK(Telnyx). . Added video conferencing service that enables you to join and host virtual meetings via audio, video, chat, and screen sharing. . Implement workspace roles to manage their team. . Integrate Zendesk chat into the live chat support system. .
 
-  Project 2 : Manage payment integration using stripe payment gateway. . Chatbot integration(Trengo chat). . Implement multilingual (English and French). .
+  Project 2 : Manage payment integration using stripe payment gateway. . Chatbot integration(Trengo chat). . Implement multilingual functionality through third-party libraries. .
 
   Working closely with developers, UI designers, business developers, and quality analytics.
   `
