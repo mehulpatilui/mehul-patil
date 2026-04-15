@@ -13,7 +13,7 @@ export class IntroComponent implements OnInit {
   }
 
   download(){
-    window.open('https://mehulpatilui.github.io/mehul-patil/assets/files/Mehul_Patil.pdf', '_blank');
+    window.open('https://mehulpatilui.github.io/mehul-patil/assets/files/Mehul_Patil_MEANstack_Developer.pdf', '_blank');
   }
 
 }

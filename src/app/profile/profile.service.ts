@@ -163,38 +163,38 @@ export class ProfileService {
 
   about = "I'm a native of Indore, multi-faceted individual with a Master's degree in Computer Applications and currently working as a professional Software engineer. With a strong foundation in computer science, I've a keen interest in traveling and exploring new cultures. my passion for adventure and the great outdoors is evident in i love for travel, as i seeks out new experiences and delves into the unfamiliar. With a thirst for knowledge and an insatiable curiosity, I'm always eager to learn and grow, whether it be through my professional pursuits or personal experiences."
 
-  skillsData: any = [
-    {
-      'id': '1',
-      'skill': 'ANGULAR 8+',
-      'progress': '85%'
-    },
-    {
-      'id': '2',
-      'skill': 'JAVASCRIPT',
-      'progress': '80%'
-    },
-    {
-      'id': '3',
-      'skill': 'Typescript',
-      'progress': '85%'
-    },
-    {
-      'id': '4',
-      'skill': 'CSS, SCSS',
-      'progress': '55%'
-    },
-    {
-      'id': '5',
-      'skill': 'Material Design(Angular Material)',
-      'progress': '90%'
-    },
-    {
-      'id': '6',
-      'skill': 'NGX Bootstrap',
-      'progress': '90%'
-    },
-  ];
+skillsData: any = [
+  { id: '1', skill: 'ANGULAR 8+', progress: '95%' },
+  { id: '2', skill: 'TypeScript', progress: '90%' },
+  { id: '3', skill: 'JavaScript', progress: '90%' },
+  { id: '4', skill: 'HTML5', progress: '90%' },
+  { id: '5', skill: 'CSS / SCSS', progress: '85%' },
+  { id: '6', skill: 'Angular Material', progress: '95%' },
+  { id: '7', skill: 'Bootstrap', progress: '90%' },
+  { id: '8', skill: 'RxJS', progress: '85%' },
+
+  { id: '9', skill: 'Node.js', progress: '80%' },
+  { id: '10', skill: 'REST APIs', progress: '90%' },
+  { id: '11', skill: 'WebSocket / Socket.IO', progress: '85%' },
+  { id: '12', skill: 'WebRTC', progress: '85%' },
+
+  { id: '13', skill: 'NgRx', progress: '85%' },
+  { id: '14', skill: 'Component Architecture', progress: '90%' },
+
+  { id: '15', skill: 'Performance Optimization', progress: '85%' },
+  { id: '16', skill: 'Cross-Browser Debugging', progress: '85%' },
+
+  { id: '17', skill: 'ChatGPT API', progress: '80%' },
+
+  { id: '1', skill: 'Jasmine / Unit Testing', progress: '80%' },
+
+  { id: '19', skill: 'AWS (S3)', progress: '75%' },
+  { id: '20', skill: 'Firebase', progress: '75%' },
+
+  { id: '21', skill: 'Git', progress: '90%' },
+  { id: '22', skill: 'Webpack', progress: '80%' },
+  { id: '23', skill: 'Google APIs', progress: '80%' }
+];
 
   educationData: any = [
     {
