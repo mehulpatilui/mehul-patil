@@ -19,7 +19,7 @@ constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
     this.totalExp();
-    this.about1 =  this.profileService.about;
+    this.about1 = `I am a Frontend Developer with over ${this.totalYears}.${this.totalMoth} years of experience building scalable and high-performance web applications. I specialize in Angular, TypeScript, and modern JavaScript, with hands-on experience across the Software Development Life Cycle (SDLC). I have worked extensively on real-time communication systems using WebRTC, along with integrations like Firebase Cloud Messaging (FCM) and multilingual support. Currently working as a Software Engineer, I focus on writing clean, maintainable code and optimizing application performance. I enjoy solving complex problems and continuously improving user experience through modern development practices. Beyond my professional work, I have a strong passion for traveling and exploring new cultures, which helps me stay curious, adaptable, and open to new ideas.`;
     this.about2 =  this.profileService.about2;
   }
 

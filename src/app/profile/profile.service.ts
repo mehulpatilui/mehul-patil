@@ -157,9 +157,9 @@ export class ProfileService {
   ]
 
 
-  about2 = [ { p: 'Worked with Software Development Life Cycle(SDLC) and WebRTC.'},
-  { p: 'Expertise in Angular 8+ All versions, Javascript, ES6.' },
-  { p: 'Have good understanding of WebRTc protocol, FCM Cloud messaging and multilingual.'}]
+  about2 = [ { p: 'Expertise in Angular (v8+), TypeScript, and JavaScript (ES6+)'},
+  { p: 'Strong experience in real-time applications using WebRTC and SDLC processes' },
+  { p: 'Skilled in building scalable, responsive, and multilingual applications with modern tools'}]
 
   about = "I'm a native of Indore, multi-faceted individual with a Master's degree in Computer Applications and currently working as a professional Software engineer. With a strong foundation in computer science, I've a keen interest in traveling and exploring new cultures. my passion for adventure and the great outdoors is evident in i love for travel, as i seeks out new experiences and delves into the unfamiliar. With a thirst for knowledge and an insatiable curiosity, I'm always eager to learn and grow, whether it be through my professional pursuits or personal experiences."
 
@@ -246,15 +246,10 @@ Completed my Secondary school with 84%.`
       company: 'Moontechnolabs PVT. LTD',
       location: 'Ahmedabad',
       timeline: 'Jan 2022 to Present',
-      role: 'Angular Developer',
-      work: `Technologies : Angular 8+ , JavaScript, RXJX, Typescript. .
+      role: 'Frontend Developer',
+      work: `Technologies: Angular (v8+), TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS, RxJS, Bootstrap, Angular Material, Node.js, WebRTC, WebSocket, Socket.IO, RESTful APIs, NgRx, Webpack, AWS (S3), Firebase (FCM), OAuth2, JWT, Google APIs, Stripe API, Zendesk Integration, ChatGPT API.
 
-  Project 1 : Working on WebRTC based WebApplication. . Manage call flow and implement number porting service. . Implement messages service using PN and 3rd party SDK(Telnyx). . Added video conferencing service that enables you to join and host virtual meetings via audio, video, chat, and screen sharing. . Implement workspace roles to manage their team. . Integrate Zendesk chat into the live chat support system. .
-
-  Project 2 : Manage payment integration using stripe payment gateway. . Chatbot integration(Trengo chat). . Implement multilingual functionality through third-party libraries. .
-
-  Working closely with developers, UI designers, business developers, and quality analytics.
-  `
+  Project 1: WebRTC-based Communication Platform. . Designed and developed a cloud-based communication platform supporting VoIP, messaging, and video conferencing using WebRTC and Socket.IO. . Built scalable, reusable Angular components using component-based architecture and lifecycle best practices. . Implemented real-time features including IVR, call routing, recording, forwarding, and voicemail with low latency. . Developed Node.js-based signaling and real-time communication modules for WebRTC applications. . Integrated RESTful APIs and third-party services (Telnyx, Zendesk, Stripe, Google APIs) for enhanced functionality. . Implemented secure authentication and authorization using OAuth2, JWT, and role-based access control. . Optimized application performance using lazy loading, code splitting, caching strategies, and bundle optimization. . Built video conferencing features including audio/video streaming, chat, and screen sharing. . Developed multilingual support and push notification services (FCM) for improved user engagement. . Modernized legacy code using AI-assisted development tools (ChatGPT, Cursor), improving code quality and developer productivity. . Ensured cross-browser compatibility and debugging for consistent user experience across platforms. . Collaborated with cross-functional teams through code reviews, design discussions, and Agile/Scrum processes. . Created and maintained unit tests using Jasmine, improving reliability and reducing regressions. . Managed AWS S3 deployments and CI/CD workflows to ensure high availability and smooth releases. . Resolved 1350+ UI and functional issues, significantly improving application stability and performance. . Working closely with developers, UI designers, business developers, and quality analytics.`
     },
     {
       id: 3,
